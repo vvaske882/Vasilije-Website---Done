@@ -1,0 +1,123 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	overflow: hidden;
+	;}
+
+.content {
+	height: 100vh;
+	margin: auto;
+	max-width: 1300px;
+	min-width: 450px;
+	padding-top: 46px;
+	position: relative;
+	width: min(100%, 55vw);
+}
+
+.navbar {
+	background-color: #333;
+	display: flex;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.navbar a {
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.subnav {
+	position: relative;
+}
+
+.subnav .subnavbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+	background-color: red;
+}
+
+.subnav-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background-color: red;
+}
+
+.subnav-content a {
+	color: white;
+	text-decoration: none;
+}
+
+.subnav-content a:hover {
+	background-color: #eee;
+	color: black;
+}
+
+.subnav:hover .subnav-content {
+	display: inline-flex;
+}
+
+.heading1 {
+	padding: 20px;
+	height: 100%;
+	width: 96.3%;
+	background-color: rgb(174, 180, 187);
+}
+
+.bgimage {
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+.playerstats {
+	font-size: 35px;
+	position: absolute;
+	margin-top: 200px;
+}
+
+.player {
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 120px;
+	margin-top: 70px;
+	position: absolute;
+}
+
+.playerimg {
+	height: 100px;
+	margin-left: 0px;
+	margin-top: 45px;
+	position: absolute;
+}
+
+#startid {
+	-webkit-user-drag: none;
+	user-select: none;
+}
+
+.infostart {
+	font-size: 30px;
+	margin-top: 100px
+}
+
+.margincontent {
+	margin-top:100px;
+}
